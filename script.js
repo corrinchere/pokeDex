@@ -7,7 +7,7 @@ let button = document.querySelector('#submitButton')
 
 async function getData (event) {
     event.preventDefault
-    let textInput = document.querySelector('#inputBar').value
+    let textInput = document.querySelector('#inputBar').value.toLowerCase()
     const url = `https://pokeapi.co/api/v2/pokemon/${textInput}`
 
 

@@ -251,6 +251,10 @@ h1 {
         margin: 5% auto;
     }
 
+    #pokemonName {
+        font-size: 15px;
+    }
+
     #mainbox {
         display: flex;
         width: 300px;
